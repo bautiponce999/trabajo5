@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistas Mundiales</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body class="body">
+    <header class="header">
+        <section class="seccionhead">
+            <img src="assets/toplo.png" alt="Logo de los Top globales" class="logo">
+            <h1 class="titulouno">Artistas globales</h1>
+            <p class="subtitulouno">Menú de atajos</p>
+            <nav class="navbar navbar-expand-lg menu" data-bs-theme="dark">
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+                        aria-controls="menuPrincipal" aria-expanded="false"
+                        aria-label="Abrir menú">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="navbar-nav collapse navbar-collapse justify-content-between" id="menuPrincipal">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/rankingmundial.html">Ranking mundial</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/rock.html">Artistas rock</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/trap.html">Artistas Trap</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/canciones.html">Canciones más reproducidas</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main class="main">
+        <h2 class="maintitulo">Los mas escuchados del mes</h2>
+        <section class="generalimg">
+            <img src="assets/Bruno_Mars.jpg" alt="Imagen primer plano de Bruno Mars" class="fotoartista">
+            <img src="assets/Justin_Bieber.jpg" alt="Imagen primer plano de Justin Bieber" class="fotoartista">
+            <img src="assets/Rihanna.jpg" alt="Imagen primer plano de Rihanna" class="fotoartista">
+        </section>
+        <section class="galeria">
+            <h2 class="maintitulo">Galería de artistas</h2>
+            <section id="carruselArtistas" class="carousel slide" data-bs-ride="carousel">
+                <section class="carousel-inner">
+                    <figure class="carousel-item active">
+                        <img src="assets/Bruno_Mars.jpg" class="d-block w-100" alt="Bruno Mars">
+                        <figcaption class="carousel-caption">Bruno Mars</figcaption>
+                    </figure>
+                    <figure class="carousel-item">
+                        <img src="assets/Justin_Bieber.jpg" class="d-block w-100" alt="Justin Bieber">
+                        <figcaption class="carousel-caption">Justin Bieber</figcaption>
+                    </figure>
+                    <figure class="carousel-item">
+                        <img src="assets/Rihanna.jpg" class="d-block w-100" alt="Rihanna">
+                        <figcaption class="carousel-caption">Rihanna</figcaption>
+                    </figure>
+                </section>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carruselArtistas" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carruselArtistas" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer_subtitulo">2026 TopGlobales. Todos los derechos reservados.</p>
+        <a href="https://www.instagram.com/topglobales/" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com/@topglobales" target="_blank">TikTok</a>
+        <a href="https://www.youtube.com/@topglobales" target="_blank">YouTube</a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
